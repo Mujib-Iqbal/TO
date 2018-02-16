@@ -1,0 +1,66 @@
+html,
+body {
+  min-height: 100%;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/*Masih belum bisa full screen jika pd device ipad*/
+.test{
+	background-color: #d2d6de;
+}
+.box{
+	-webkit-box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.23);
+    box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.23);
+    margin-bottom: 100px;
+}
+.judul {
+	/*margin-top: 20px;*/
+	background-color: #f5f5f5;
+	padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+	border: solid 1px  #c4bdbd;
+	box-shadow: none;
+}
+.soal {
+	border: solid 1px #c4bdbd;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+    padding-left: 30px;
+
+}
+.keterangan span {
+	padding-right: 10px;
+}
+.isi-soal {
+	margin-top: 10px;
+	margin-bottom: 30px;
+    
+
+}
+.jawaban {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	/*border: solid 1px #c4bdbd;*/
+}
+.jawaban button{
+	text-align: left;
+}
+.footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
